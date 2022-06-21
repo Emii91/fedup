@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Front Page */
+
+label.logo {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 50px;
+}
+
+nav {
+    background-image: url("../images/pizza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 50px;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
