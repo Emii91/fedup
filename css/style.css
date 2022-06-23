@@ -13,11 +13,12 @@ label.logo {
 }
 
 nav {
-    background-image: url("../images/pizza.jpg");
+    background-image: url("../images/Tomato.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
-    height: 600px;
+    background-position: center;
+    height: 800px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -45,4 +46,18 @@ a:hover {
 h1 {
     font-size: 30px;
     text-align: center;
+    margin: 20px;
+}
+
+
+
+/* BLOG */
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    color: black;
 }
