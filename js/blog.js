@@ -1,4 +1,4 @@
-const resultsContainer = document.querySelector(".results");
+const resultsContainer = document.querySelector(".blog");
 
 const url = "https://projectexam.site/FedUp/wp-json/wp/v2/posts?_embed=1&";
 
@@ -25,33 +25,3 @@ async function fetchPosts() {
 }
 
 fetchPosts();
-
-
-
-// const resultsContainer = document.querySelector(".results");
-
-// const url = "https://projectexam.site/FedUp/wp-json/wp/v2/posts/";
-
-// async function fetchPosts() {
-
-//     try {
-//         const response = await fetch(url);
-//         const json = await response.json();
-
-//         console.log(json);
-
-//         resultsContainer.innerHTML = "";
-
-//         const posts = json.results;
-
-//         posts.forEach(function(post) {
-//             resultsContainer.innerHTML += `<h1>${post.title.rendered}</h1>`;
-//         });
-//     }
-//     catch(error) {
-//         console.log(error);
-//         resultsContainer.innerHTML = displayError("An error has occured");
-//     }
-// }
-
-// fetchPosts();
