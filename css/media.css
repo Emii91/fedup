@@ -60,7 +60,7 @@
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 436px) {
 
     .results img,
     .blog img {
@@ -73,5 +73,13 @@
 
     main p {
         margin: 40px;
+    }
+
+    footer a {
+        display: grid;
+    }
+
+    footer {
+        height: 100%;
     }
 }
